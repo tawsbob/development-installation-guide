@@ -1,9 +1,10 @@
+
 # Welcome to Dev guide!
 
 So in this repo I **joined** a mix of things that you must have installed on your machine ;)
 
 
-# MAC OS
+## FOR  MAC
 
 First of all Home brew ( package manager )
 
@@ -34,6 +35,14 @@ iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Mac
 
 [Download here](http://iterm2.com)
 
+## Oh My Zsh
+
+[ohmyzsh](https://ohmyz.sh/)
+
+```bash
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ## nvm ( for nodejs developers )
 [NVM]([https://github.com/nvm-sh/nvma](https://github.com/nvm-sh/nvma)) is a nodejs version manager.
 
@@ -47,4 +56,22 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
+## Instaling node.js
+
+```bash
+$ nvm install YOUR_NODE_VERSION
+```
+
+## Using node.js
+
+```bash
+$ nvm use YOUR_NODE_VERSION 
+```
+
 ## Docker
+
+[download docker here](https://www.docker.com/products/docker-desktop)
+
+## Visual Studio Code
+
+[download vscode here](https://code.visualstudio.com/)
