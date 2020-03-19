@@ -15,7 +15,7 @@ First of all Home brew ( package manager )
 
 ## Xcode
 
-Download xcode [here](https://apps.apple.com/br/app/xcode/id497799835?mt=12](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
+Download xcode [here](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
 
 ## Git
 
