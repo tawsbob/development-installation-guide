@@ -1,7 +1,18 @@
-
 # Welcome to Dev guide!
 
 So in this repo I **joined** a mix of things that you must have installed on your machine ;)
+
+  - [FOR  MAC](#for--mac)
+  - [Xcode](#xcode)
+  - [Git](#git)
+  - [iTerm](#iterm)
+      - [What is iTerm2?](#what-is-iterm2)
+  - [Oh My Zsh](#oh-my-zsh)
+  - [nvm ( for nodejs developers )](#nvm--for-nodejs-developers-)
+  - [Installing node.js](#installing-nodejs)
+  - [Using node.js](#using-nodejs)
+  - [Docker](#docker)
+  - [Visual Studio Code](#visual-studio-code)
 
 
 ## FOR  MAC
@@ -56,10 +67,16 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
-## Instaling node.js
+## Installing node.js
 
+- Installing specific version
 ```bash
 $ nvm install YOUR_NODE_VERSION
+```
+
+- Installing latest LTS release
+```bash
+$ nvm install --lts
 ```
 
 ## Using node.js
